@@ -1,0 +1,160 @@
+*{
+   margin: auto;
+   box-sizing: border-box; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Raleway';
+}
+.logo{
+    padding: 20px;
+    cursor: pointer;
+}
+.menu{
+    padding: 20px;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+    padding: 20px;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+.foto1{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: 350px;
+}
+.foto2{
+    padding: 20px;
+    right: 0;
+    position: absolute;
+}
+.foto3{
+    float: left;
+    padding: 20px;
+}
+.titulo1{
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.lorem1{
+    width: 60%;
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.lorem2{
+    width: 60%;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.lorem3{
+    color: grey;
+    width: 60%;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: center
+}
+.lorem4{
+    width: 60%;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: center
+}
+.submenu{
+    list-style-type:none ;
+    margin: auto;
+    float: left;
+}
+.submenu ol{
+    list-style-type: none;
+}
+.submenu ol li{
+    padding: 20px;
+    background-color: yellowgreen;
+    width: 200px;
+}
+.parrafos{
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 25%;
+    margin-top: 10px;   
+}
+.formulario{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20%;
+
+}
+.formulario form{
+    background-color: grey;
+    padding: 20px;
+}
+.formulario label{
+    padding: 20px;
+}
+select{
+    padding: 4px;
+    width: 40%;
+    margin-left: 50%;
+}
+input{
+    padding: 4px;
+    margin-left: 50%;
+    width: 40%;
+}
+.recetas{
+    font-size: x-large;
+    font-weight: bold;
+}
+.tabla{
+    background-color: greenyellow;
+    padding-bottom: 200px;
+    width: 100%;
+}
+table{
+    margin-top: 50px;
+    padding: 30px;
+}
+td{
+
+    padding: 5px;
+}
+tr{
+    margin-left: 10px;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(/raleway.regular.ttf);
+}
+
+footer{
+    padding: 10px;
+    background-color: rgb(31, 31, 31);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+@media (max-width: 850px) {
+    .menu a{
+        margin-left: 30px;
+    }
+    .submenu{
+        margin-top: 20px;
+    }
+}
+
